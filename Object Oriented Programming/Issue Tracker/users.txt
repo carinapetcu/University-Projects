@@ -1,0 +1,5 @@
+eu,programmer
+tu,tester
+carina,programmer
+loli,programmer
+jeu,tester

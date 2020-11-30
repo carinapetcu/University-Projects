@@ -1,0 +1,9 @@
+2,math
+3,romanian
+5,asc
+7,a
+8,philosophy
+9,english
+10,physics
+4,fundamentals of programming
+1,history

@@ -1,0 +1,6 @@
+be happy,proposed,eu,2
+be happy,accepted,Tae,1
+lol,proposed,tu,3
+friends,proposed,Tae,3
+shadow,accepted,Tae,1
+stay safe,accepted,eu,1

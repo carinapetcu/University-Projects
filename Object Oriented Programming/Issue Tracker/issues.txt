@@ -1,0 +1,4 @@
+chiar nu stiu ce are,open,eu,no solver
+se pare ca mergee,closed,tu,carina
+merge?,open,jeu,no solver
+merge aparent,closed,jeu,carina

@@ -1,0 +1,4 @@
+repository=text
+students="students.txt"
+subjects="subjects.txt"
+grades="grades.txt"

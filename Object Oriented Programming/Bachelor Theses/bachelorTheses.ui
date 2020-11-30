@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>bachelorThesesClass</class>
+ <widget class="QMainWindow" name="bachelorThesesClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>627</width>
+    <height>813</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>bachelorTheses</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QListWidget" name="coordinatedStudentsListWidget"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="editPushButton">
+      <property name="text">
+       <string>Edit data</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLineEdit" name="searchLineEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QListWidget" name="listWidget"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPushButton" name="addAsCoordinatorPushButton">
+      <property name="text">
+       <string>Add as coordinator</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>627</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="bachelorTheses.qrc"/>
+ </resources>
+ <connections/>
+</ui>

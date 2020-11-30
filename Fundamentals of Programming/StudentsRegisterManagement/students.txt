@@ -1,0 +1,10 @@
+1,Michael
+23,Lorelei
+15,Gicu
+7,Mila
+2,Viaa
+19,Dali
+11,Flowy
+20,Bratva
+4,Geli
+30,Fili

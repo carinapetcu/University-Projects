@@ -1,0 +1,4 @@
+repository=binary
+students="students.pickle"
+subjects="subjects.pickle"
+grades="grades.pickle"

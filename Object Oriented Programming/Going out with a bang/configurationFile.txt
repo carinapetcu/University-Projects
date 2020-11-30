@@ -1,0 +1,4 @@
+repository=file
+tapes=Tapes.txt
+watchList=file
+watchList=Watchlist.html
