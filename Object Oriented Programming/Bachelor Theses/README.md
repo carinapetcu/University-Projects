@@ -5,7 +5,7 @@ This is an application for the management of bachelor theses in the faculty. It 
 
 The application has the following functionalities:
   * at the start, it opens a window for each teacher, having the students coordinated by that teacher
-  * the theacer can search for any student, the list being updated as the teacher types
+  * the teacher can search for any student, the list being updated as the teacher types
   * teacher can edit the students' data
   * a new window will show visual statistics
   * when a modification is done, all the teachers can see it
