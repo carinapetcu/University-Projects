@@ -12,3 +12,4 @@ This is a Python application which has the following functionalities:
   * unlimited undo/ redo functionality having a memory-efficient implementation
   
 The application is object oriented, has 95% code coverage using PyUnit tests and a Graphical User Interface.
+Moreover, I store the data in 3 ways: inmemory, binary or text.
