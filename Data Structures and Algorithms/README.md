@@ -1,4 +1,4 @@
-Data Structures and Algoritms
+Data Structures and Algorithms
 =============================
 
 I implemented several ADTs using C++.
