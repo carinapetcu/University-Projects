@@ -20,3 +20,4 @@ What I used while developing this application:
   * MVC pattern
   * QPainter
   * QCheckBox
+  * files to read/ write the data
