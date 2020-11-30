@@ -10,4 +10,4 @@ The application has the following functionalities:
   * monthly report
   * day of week report
 
-Moreover, it has unit tests and an object-oriented and layered architecture. 
+Moreover, it has unit tests and an object-oriented and layered architecture solution. 
