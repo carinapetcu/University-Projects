@@ -1,4 +1,4 @@
-Bachelor Theses
+Going out with a bang
 ===============
 
 This is an application written using C++ and the Qt framework. 
