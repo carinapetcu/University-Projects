@@ -207,6 +207,21 @@ INSERT INTO Written_by(sid, wid) VALUES
 (14,6),(15,7),(16,8),(17,8),(16,9),(18,10),(19,11),(20,12),(21,12),(22,13),
 (23,13),(26,14),(27,15),(27,16),(28,17),(29,18),(30,18)
 
+SELECT * FROM Is_of
+SELECT * FROM Song
+SELECT * FROM Producer
+SELECT * FROM Writter
+SELECT * From Genre
+SELECT * from Album
+SELECT * FROM Artist
+SELECT * FROM Performers
+SELECT * FROM Performing_as
+SELECT * FROM Performs_on
+SELECT * FROM Language
+SELECT * FROM Sung_in
+
+SELECT * FROM Written_by
+
 
 ------ 2. Deleting elements
 -- Deleting element from Song table
@@ -421,7 +436,7 @@ FROM Song S
 INNER JOIN Album A ON S.alid = A.alid 
 ORDER BY A.alname
 
--- 2. OUTER JOIN(also used ORDER BY and TOP) - Get the name of the first 10 songs and the album name(doesn't matter if they are on an album or not), 
+-- 2. OUTER JOIN(also used ORDER BY and TOP) - Get the name of the first 5 songs and the album name(doesn't matter if they are on an album or not), 
 --                                             sorted by their length
 SELECT TOP 5 S.sname AS [Song name], A.alname AS [Album name]
 FROM Song S
@@ -681,17 +696,3 @@ HAVING MIN(S.slength) > (
 )
 ORDER BY W.first_name
 
-SELECT * FROM Is_of
-SELECT * FROM Song
-SELECT * FROM Producer
-SELECT * FROM Writter
-SELECT * From Genre
-SELECT * from Album
-SELECT * FROM Artist
-SELECT * FROM Performers
-SELECT * FROM Performing_as
-SELECT * FROM Performs_on
-SELECT * FROM Language
-SELECT * FROM Sung_in
-
-SELECT * FROM Written_by
