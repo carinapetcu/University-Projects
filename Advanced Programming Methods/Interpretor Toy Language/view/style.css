@@ -1,0 +1,57 @@
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: linear-gradient(#4c209b 50%, #33139d 100%);
+    -fx-text-fill: white;
+}
+
+.list-cell { -fx-text-fill: #000000; }
+.list-cell:odd { -fx-background-color: #a3a0d7; }
+.list-cell:even { -fx-background-color: #8577d0; }
+.list-cell:filled:hover {
+    -fx-background-color: #5f4a98;
+    -fx-text-fill: white;
+}
+
+.table-cell:filled:selected:focused, .table-cell:filled:selected {
+    -fx-background-color: linear-gradient(#4c209b 50%, #33139d 100%);
+    -fx-text-fill: white;
+}
+
+.table-cell { -fx-text-fill: #000000; }
+.table-cell:odd { -fx-background-color: #a3a0d7; }
+.table-cell:even { -fx-background-color: #8577d0; }
+.table-cell:filled:hover {
+    -fx-background-color: #5f4a98;
+    -fx-text-fill: white;
+}
+
+.list {-fx-background-color: #8577d0}
+.table { -fx-background-color: #8577d0}
+
+.button {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #5b13a3 0%, #601290 100%),
+            #65249d,
+            #713ad8,
+            radial-gradient(center 50% 50%, radius 100%, #963ad8, #7e2cc5);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+.button:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #5613a3 0%, #601290 100%),
+            #4e249d,
+            #773ad8,
+            radial-gradient(center 50% 50%, radius 100%, #6d4bea, #482cc5);
+}
+.button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+.button Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #654492, 0,0,0,2 );
+}
