@@ -10,3 +10,4 @@ So far, I did the following:
   * implemented ADTs for the toy language( dictionary, stack, heap and list)
   * implemented and used concurrency in Java
   * used Java streams
+  * implemented a GUI in JavaFX, as well as using CSS elements to change my widgets
