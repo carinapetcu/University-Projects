@@ -1,7 +1,7 @@
 Toy Language Interpretor
 ========================
 
-This is a project written using Java and it is ongoing. It implements an interpretor for a toy language. 
+This is a project written using Java. It implements an interpretor for a toy language. 
 I implemented it using a Model-View-Controller design pattern, as well as a layered architecture. 
 
 So far, I did the following:
